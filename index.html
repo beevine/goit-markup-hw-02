@@ -4,62 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Main</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
 </head>
 
 <body>
-    <header>
+    <header class="page-header">
         <nav>
-            <a href="/">WebStudio</a>
+            <a href="./index.html" class="logo"><span class="logo-web">Web</span><span>Studio</span></a>
             
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="site-nav">
+                <li><a class="nav-link" href="./index.html">Студия</a></li>
+                <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="nav-link" href="#adress">Контакты</a></li>
             </ul>
 
         </nav>
 
         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a href="mailto:info@devstudio.com" class="contact-item">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="contact-item">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
     <main>
-        <section>
+        <section class="solutions">
             <h1>Эффективные решения<br>для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+            <button type="button" class="order-button">Заказать услугу</button>
         </section>
 
-        <section>
+        <section class="fundamentals">
             <h2 hidden>Принципы нашей работы</h2>
             <ul>
                 <li>
-                    <h3>Внимание к деталям</h3>
+                    <h3 class="header-medium">Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
 
                 <li>
-                    <h3>Пунктуальность</h3>
+                    <h3 class="header-medium">Пунктуальность</h3>
                     <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
 
                 <li>
-                    <h3>Планирование</h3>
+                    <h3 class="header-medium">Планирование</h3>
                     <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>  
                 </li>
 
                 <li>
-                    <h2>Современные технологии</h2>
+                    <h3 class="header-medium">Современные технологии</h3>
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
 
-        <section>
-            <h2>Чем мы занимаемся</h2>
+        <section class="we-do">
+            <h2 class="header-large">Чем мы занимаемся</h2>
             <ul>
                 <li><img src="./images/img-box-1.jpg" alt="специалист пишет код с использованием двух устройств" width="370"></li>
                 <li><img src="./images/img-box-2.jpg" alt="специалист разрабатывает мобильное приложение" width="370"></li>
@@ -67,43 +70,43 @@
             </ul>
         </section>
 
-        <section>
-            <h2>Наша команда</h2>
+        <section class="team">
+            <h2 class="header-large">Наша команда</h2>
             <ul>
-                <li>
+                <li class="team-member">
                     <img src="./images/img-demianenko.jpg" alt="Игорь Демьяненко" width="270">
-                    <h3>Игорь Демьяненко</h3>
+                    <h3 class="header-names">Игорь Демьяненко</h3>
                     <p>Product Designer</p>
                 </li>
 
-                <li>
+                <li class="team-member">
                     <img src="./images/img-repina.jpg" alt="Ольга Репина" width="270" >
-                    <h3>Ольга Репина</h3>
+                    <h3 class="header-names">Ольга Репина</h3>
                     <p>Frontend Developer</p>
                 </li>
 
-                <li>
+                <li class="team-member">
                     <img src="./images/img-tarasov.jpg" alt="Николай Тарасов" width="270" >
-                    <h3>Николай Тарасов</h3>
+                    <h3 class="header-names">Николай Тарасов</h3>
                     <p>Marketing</p>
                 </li>
 
-                <li>
+                <li class="team-member">
                     <img src="./images/img-ermakov.jpg" alt="Михаил Ермаков" width="270" >
-                    <h3>Михаил Ермаков</h3>
+                    <h3 class="header-names">Михаил Ермаков</h3>
                     <p>UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
 
-    <footer>
-        <a href="/">WebStudio</a>
-        <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/NhzTjcWZaFPtSxreA">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+    <footer class="footer">
+        <a class="logo" href="./index.html"><span class="logo-web">Web</span><span class="color-reverse">Studio</span></a>
+        <address id="adress">
+            <ul adress class="adress">
+                <li><a class="contact-item color-reverse" href="https://goo.gl/maps/NhzTjcWZaFPtSxreA" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a class="contact-item" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="contact-item" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
