@@ -16,7 +16,7 @@ body {
 
 .page-header {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -24,9 +24,8 @@ body {
     font-family: 'Raleway', sans-serif;;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: var(--stress-text-color);
     
 }
@@ -37,12 +36,15 @@ body {
 
 .site-nav {
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--stress-text-color);
     display: flex;
     flex-direction: row;
-    
+}
+
+.contact-item{
+    color: var(--primary-text-color);
 }
 
 .nav-link:hover, .nav-link:focus,
@@ -53,29 +55,32 @@ body {
 /* main styles */
 
 .solutions {
+    background-color: var(--tertiary-bg-color);
+    padding-top: 200px;
+    margin-bottom: 90px;
+}
+
+.header-solutions{
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-bg-color);
-    background-color: var(--tertiary-bg-color);
-    padding-top: 200px;
-    margin-bottom: 90px;
 }
 
 .order-button {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
+    line-height: 1.88;
     width: 200px;
     height: 50px;
     border-radius: 4px;
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
-    margin-top: 30px;
-    margin-bottom: 200px;
     padding: 10px 32px;
+    display: flex;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;   
 }
@@ -83,13 +88,14 @@ body {
 .fundamentals{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
 }
 
 .header-medium{
     font-family: inherit;
     font-weight: 700;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--stress-text-color);
@@ -103,7 +109,7 @@ body {
 .header-large {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     color: var(--stress-text-color);
 }
 
@@ -133,11 +139,16 @@ body {
     color: var(--primary-bg-color);
 }
 
+.color-transparent {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
 .adress {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
@@ -146,7 +157,7 @@ body {
 .button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     color: var(--stress-text-color);
     background-color: var(--secondary-bg-color);
     height: 38px;
@@ -175,7 +186,7 @@ body {
 .header-small{              
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--stress-text-color);
 }
