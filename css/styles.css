@@ -43,12 +43,16 @@ body {
     flex-direction: row;
 }
 
-.contact-item{
+.contact-item {
     color: var(--primary-text-color);
 }
 
 .nav-link:hover, .nav-link:focus,
 .contact-item:hover, .contact-item:focus {
+    color: var(--accent-color);
+}
+
+.nav-link.current {
     color: var(--accent-color);
 }
 
@@ -85,6 +89,10 @@ body {
     border-radius: 4px;   
 }
 
+.order-button:hover {
+    background-color: #188CE8;
+}
+
 .fundamentals{
     font-weight: 400;
     font-size: 14px;
@@ -92,7 +100,6 @@ body {
 }
 
 .header-medium{
-    font-family: inherit;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
